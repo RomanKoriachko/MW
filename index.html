@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MW</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
@@ -25,7 +26,7 @@
                 <div class="content1">
                     <div>join the colors.</div>
                     <div>There are only 3 colors, 10 digits</div>
-                    <button>join now</button>
+                    <button class="button">join now</button>
                 </div>
             </div>
         </div>
@@ -33,7 +34,7 @@
     <main class="main">
         <div id="colors">
             <div class="container">
-                <div class="content2">
+                <div class="content2" data-aos="zoom-in" data-aos-duration="2000">
                     <div class="content2-header">There are only 3 colors, 10 digits</div>
                     <div class="content2-main">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt repudiandae dicta esse consequuntur provident numquam ex voluptas ipsa quod, sapiente maxime iste, voluptates inventore fugiat soluta ea mollitia accusantium. Maxime?
                     Doloribus similique excepturi libero, perferendis delectus accusamus velit fugit. Maiores quos aliquam exercitationem nobis, ab quidem, impedit vel cumque quo, aspernatur molestiae dolorem voluptatibus. Minima nam similique voluptatum quas aut?
@@ -58,7 +59,7 @@
                         <div>SEO Optimized</div>
                     </div>
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, assumenda ea amet eos nemo repudiandae inventore molestiae ullam facilis eum eaque, et ipsum quis accusamus. Reprehenderit maiores minima numquam doloribus! inventore molestiae ullam facilis eum eaque, et ipsum quis accusamus. Reprehenderit maiores minima numquam doloribus!</div>
-                    <button id="show-more1">+</button>
+                    <button id="show-more1"></button>
                 </div>
                 <div class="slide3-row slide3-content2" id="slide3-content2">
                     <div>
@@ -66,7 +67,7 @@
                         <div>Responsive</div>
                     </div>
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, assumenda ea amet eos nemo repudiandae inventore molestiae ullam facilis eum eaque, et ipsum quis accusamus. Reprehenderit maiores minima numquam doloribus! inventore molestiae ullam facilis eum eaque, et ipsum quis accusamus. Reprehenderit maiores minima numquam doloribus!</div>
-                    <button id="show-more2">+</button>
+                    <button id="show-more2"></button>
                 </div>
                 <div class="slide3-row slide3-content3" id="slide3-content3">
                     <div>
@@ -74,11 +75,27 @@
                         <div>Cloud Services</div>
                     </div>
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, assumenda ea amet eos nemo repudiandae inventore molestiae ullam facilis eum eaque, et ipsum quis accusamus. Reprehenderit maiores minima numquam doloribus! inventore molestiae ullam facilis eum eaque, et ipsum quis accusamus. Reprehenderit maiores minima numquam doloribus!</div>
-                    <button id="show-more3">+</button>
+                    <button id="show-more3"></button>
                 </div>
             </div>
         </div>
+        <div class="slide4">
+            <div class="container" data-aos="zoom-in-up" data-aos-duration="2000">
+                <div>Music is all of a sudden much more <span>colorful.</span></div>
+                <button class="button">View more</button>
+            </div>
+        </div>
+        <div class="slide4-footer"></div>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div>Copyright © 2013 Css Author</div>
+        </div>
+    </footer>
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
